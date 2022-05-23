@@ -44,15 +44,15 @@ header {
     width: 200px;
     height: 800px;
     margin: 400px 500px 5px 5px;
-    left: 105%;
+    left: 80%;
 }
 
 #gatto{
     position: fixed;
     width: 30px;
     height: 35px;
-    left: 105%;
-    bottom: 14%;
+    left: 75%;
+    bottom: 22%;
 }
 
 
