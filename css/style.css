@@ -1,0 +1,163 @@
+@font-face {
+    font-family:rock;
+    src: url("../font/RockBoulder.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.piadina{
+    background-color: white;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+header {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	transform-style: preserve-3d;
+	z-index: -1;
+}
+
+#background {
+    background-attachment: fixed;
+	transform: translateZ(-9px) scale(2);
+    position: absolute;
+    height: 100%;
+    width: 1300px;
+}
+
+#totem{
+    position: absolute;
+    width: 200px;
+    height: 800px;
+    margin: 400px 500px 5px 5px;
+    left: 1050px;
+}
+
+#gatto{
+    position: fixed;
+    width: 30px;
+    height: 35px;
+    left: 1050px;
+    bottom: 140px;
+}
+
+
+#cammello{
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    left: 350px;
+    bottom: 30px;
+}
+
+#piramidi{
+    position: absolute;
+    left: -70px;
+    bottom: -35px;
+    overflow-y: visible;
+}
+
+#titolo{
+    color:#f5871e;
+    text-align: center;
+    font-size: 22vw;
+    text-decoration: none;
+    
+}
+
+.title{
+    font-family:'rock';
+    text-shadow: 1px 1px 1px #cc7a00,
+        1px 2px 1px #9e712e,
+        1px 3px 1px #9e712e,
+        1px 4px 1px #9e712e,
+        1px 5px 1px #9e712e,
+        1px 6px 1px #9e712e,
+        1px 7px 1px #9e712e,
+        1px 8px 1px #9e712e,
+        1px 9px 1px #9e712e,
+        1px 10px 1px#9e712e,
+        1px 18px 6px rgba(16, 16, 16, 0.4),
+        1px 22px 10px rgba(16,16,16,0.2),
+        1px 25px 35px rgba(16,16,16,0.2),
+        1px 30px 60px rgba(16,16,16,0.4);
+}
+
+
+section{
+    border-radius: 30px 30px 0px 0px;
+    height: 125vh;
+    background-color: black;
+}
+
+
+
+#abstract{
+    height: 500px;
+    margin-bottom: 20px;
+    padding: 140px 100px 10px 100px;
+    text-align: center;
+    color: rgb(255, 255, 255)  ;
+    font-size: 20px;
+    font-family: 'rock'
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+
+#bottoneteoria{
+    width: 246px;
+    height: 114px;
+    opacity:0.8;
+}
+
+#bottoneteoria:hover{
+    opacity:1;
+}
+
+#bottonepratica{
+    width: 246px;
+    height: 114px;
+    opacity:0.8;
+}
+
+#bottonepratica:hover{
+    opacity:1;
+}
+
+.container {
+    flex-wrap: wrap;
+  }
+
+#avvertenza{
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: small !important;
+    color: rgba(255, 255, 255, 0.466) !important;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+

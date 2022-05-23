@@ -1,0 +1,149 @@
+@font-face {
+    font-family:rock;
+    src: url("../font/RockBoulder.ttf");
+}
+
+
+#corpo{
+    background-image: url("../img/pareti.jpg");
+    background-size: repeat;
+    background-size: 400px 250px;
+}
+
+#page{
+    border-radius: 20px;
+    padding: 30px;
+    margin: 25px 50px 10px 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    z-index: 1;
+}
+
+#page2{
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px 33px 25px 33x;
+    background-color: rgb(0, 0, 0);
+    color: #f3f1e9;
+    z-index: 1;
+}
+
+#titolo{
+    text-align: center;
+    font-family: rock;
+    font-size: 5em;
+    text-shadow: 1px 1px 1px #cc7a00,
+            1px 2px 1px #cc7a00,
+            1px 3px 1px #cc7a00,
+            1px 4px 1px #cc7a00,
+            1px 5px 1px #cc7a00,
+            1px 6px 1px #cc7a00,
+            1px 7px 1px #cc7a00,
+            1px 8px 1px #cc7a00,
+            1px 9px 1px #cc7a00,
+            1px 10px 1px#cc7a00,
+            1px 18px 6px rgba(16, 16, 16, 0.4),
+            1px 22px 10px rgba(16,16,16,0.2),
+            1px 25px 35px rgba(16,16,16,0.2),
+            1px 30px 60px rgba(16,16,16,0.4);
+}
+
+#tit{
+    text-decoration: none;
+    color: #f5871e;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin-right: 50px;
+}
+
+.link{
+    font-family: rock;
+    font-size: 20px;
+    text-decoration: none;
+    color: #f5871e;
+}
+
+
+#active{
+    font-family: rock;
+    font-size: 20px;
+    text-decoration: none;
+    color: white !important;
+}
+
+
+.link2{
+    text-decoration: none;
+    color: #f5871e;
+}
+
+.bold{
+    font-family: rock;
+    font-weight: bold;
+    color: #f5871e;
+}
+
+#positionback{
+    background-color: #f5871e;
+}
+
+#positioncol{
+    color: white;
+}
+
+.paragrafo{
+    margin-bottom: 20px;
+}
+
+.citazione{
+    padding: 20px 20% 20px 20%;
+}
+
+#Eco{
+    margin-top: 20px;
+    /*width: 678px;
+    height: 605;*/
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#spesa{
+    text-align: left;
+    display: block;
+}
+
+.opache{
+    color: #f3f1e965;
+}
+
+#assente{
+    margin-top: 100px;
+}
+
+#spiacenti{
+    font-family: rock;
+    color: #f5871e;
+    font-size: 30px;
+    text-align: left;
+    margin-left: -1vw;
+    padding-left:15%;
+    padding-right:10%;
+}
+
+#papiro{
+    max-height: 300px;
+    max-width: 400px;
+    margin-left: 6vw;
+
+}
+
+.articolo{
+    margin: auto;
+}
