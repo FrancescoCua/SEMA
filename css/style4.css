@@ -107,3 +107,25 @@ li{
     border-color: #6f42c1 !important ;
 }
 
+h2{
+    font-family: rock;
+}
+
+.paragrafo{
+    margin-bottom: 20px;
+    font-size: 15x;
+}
+
+.titoletti{
+    font-family: rock;
+    font-size: 20px !important;
+    color: #f5871e;
+}
+
+.imgdoc{
+    height:90%;
+    width: 90%;
+    margin: 0px 5% 2% 5%;
+    border-radius: 20px;
+}
+
