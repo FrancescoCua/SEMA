@@ -104,3 +104,29 @@ li{
 .opache{
     color: #f3f1e965;
 }
+
+.spesa{
+    text-align: left;
+    display: block;
+}
+
+.imgbig{
+    margin: auto;
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+}
+
+#imgsmall{
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#imgsmall2{
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    margin: auto;
+}
