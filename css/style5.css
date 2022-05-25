@@ -130,3 +130,25 @@ li{
     border-radius: 20px;
     margin: auto;
 }
+
+
+
+#assente{
+    margin: 50px 10% 0px 10%;
+}
+
+#spiacenti{
+    font-family: rock;
+    color: #f5871e;
+    font-size: 30px;
+    text-align: left;
+    margin-left: -1vw;
+    padding-left:15%;
+    padding-right:10%;
+}
+
+#papiro{
+    height:80%;
+    width: 80%;
+    margin: -100px 10% 0px 10%;
+}
