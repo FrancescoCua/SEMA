@@ -105,6 +105,8 @@ li{
 .bottcol{
     background-color: #6f42c1 !important;
     border-color: #6f42c1 !important ;
+    height:30%;
+    width:100%;
 }
 
 h2{
